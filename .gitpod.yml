@@ -1,16 +1,17 @@
 tasks:
   - name: Setup ROS Workspace
     init: |
-      # Clone prerequisite repositories
+      echo "Cloning prerequisite repositories..."
+      mkdir -p src
       git clone https://git.cardiff.ac.uk/comp_robot/slam_examples.git src/slam_examples
       git clone https://git.cardiff.ac.uk/comp_robot/grid_planners_demo.git src/grid_planners_demo
       git clone https://git.cardiff.ac.uk/comp_robot/sampling_planners_demo.git src/sampling_planners_demo
       git clone https://git.cardiff.ac.uk/comp_robot/path_follower.git src/path_follower
-      # Build the workspace
+      echo "Repositories cloned. Building workspace..."
       source /opt/ros/humble/setup.bash
       colcon build --symlink-install
     command: |
-      echo "Workspace is ready. Source it with: source install/setup.bash"
+      echo "Workspace is ready. Sourcing install/setup.bash..."
       source install/setup.bash
 
 vscode:
