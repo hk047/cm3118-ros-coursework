@@ -1,3 +1,6 @@
+image:
+  file: .gitpod.Dockerfile
+
 tasks:
   - name: Setup ROS Workspace
     init: |
@@ -11,7 +14,8 @@ tasks:
       source /opt/ros/humble/setup.bash
       colcon build --symlink-install
     command: |
-      echo "Workspace is ready. Sourcing install/setup.bash..."
+      echo "Workspace is ready. Sourcing setup files..."
+      source /opt/ros/humble/setup.bash
       source install/setup.bash
 
 vscode:
