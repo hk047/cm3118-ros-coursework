@@ -1,0 +1,68 @@
+[0.658s] Invoking command in '/home/user/ros2_ws/src/build/sampling_planners_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/sampling_planners_demo -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/src/install/sampling_planners_demo
+[6.183s] -- The C compiler identification is GNU 11.4.0
+[7.608s] -- The CXX compiler identification is GNU 11.4.0
+[7.629s] -- Detecting C compiler ABI info
+[7.869s] -- Detecting C compiler ABI info - done
+[7.878s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.879s] -- Detecting C compile features
+[7.913s] -- Detecting C compile features - done
+[7.919s] -- Detecting CXX compiler ABI info
+[8.195s] -- Detecting CXX compiler ABI info - done
+[8.203s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[8.203s] -- Detecting CXX compile features
+[8.204s] -- Detecting CXX compile features - done
+[8.340s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[8.341s] -- Checking for module 'fcl>=0.7.0'
+[8.789s] --   Found fcl, version 0.7.0
+[8.912s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[9.799s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[10.301s] -- Found geometry_msgs: 4.2.3 (/home/simulations/ros2_sims_ws/install/geometry_msgs/share/geometry_msgs/cmake)
+[10.771s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[10.808s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[10.889s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[10.942s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.008s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.211s] -- Found nav_msgs: 4.2.3 (/home/simulations/ros2_sims_ws/install/nav_msgs/share/nav_msgs/cmake)
+[11.405s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[11.419s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[11.854s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[11.871s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[12.285s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[12.342s] -- Found FastRTPS: /opt/ros/humble/include  
+[12.425s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[12.470s] -- Looking for pthread.h
+[12.995s] -- Looking for pthread.h - found
+[12.995s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[13.087s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[13.089s] -- Found Threads: TRUE  
+[13.186s] -- Found sensor_msgs: 4.2.3 (/home/simulations/ros2_sims_ws/install/sensor_msgs/share/sensor_msgs/cmake)
+[13.310s] -- Found visualization_msgs: 4.2.3 (/home/simulations/ros2_sims_ws/install/visualization_msgs/share/visualization_msgs/cmake)
+[13.351s] -- Found std_srvs: 4.2.3 (/home/simulations/ros2_sims_ws/install/std_srvs/share/std_srvs/cmake)
+[13.501s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[13.543s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[14.062s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[14.123s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[14.126s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[14.126s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[14.141s] -- Found ompl: /opt/ros/humble/include/ompl-1.6;/usr/include;/usr/include/eigen3  
+[14.167s] -- Found octomap_msgs: 2.0.1 (/opt/ros/humble/share/octomap_msgs/cmake)
+[14.226s] [31mCMake Error at CMakeLists.txt:44 (find_package):
+[14.226s]   By not providing "Findoctomap_server.cmake" in CMAKE_MODULE_PATH this
+[14.226s]   project has asked CMake to find a package configuration file provided by
+[14.226s]   "octomap_server", but CMake did not find one.
+[14.226s] 
+[14.226s]   Could not find a package configuration file provided by "octomap_server"
+[14.226s]   with any of the following names:
+[14.226s] 
+[14.226s]     octomap_serverConfig.cmake
+[14.226s]     octomap_server-config.cmake
+[14.226s] 
+[14.226s]   Add the installation prefix of "octomap_server" to CMAKE_PREFIX_PATH or set
+[14.226s]   "octomap_server_DIR" to a directory containing one of the above files.  If
+[14.226s]   "octomap_server" provides a separate development package or SDK, be sure it
+[14.226s]   has been installed.
+[14.226s] 
+[14.226s] [0m
+[14.227s] -- Configuring incomplete, errors occurred!
+[14.227s] See also "/home/user/ros2_ws/src/build/sampling_planners_demo/CMakeFiles/CMakeOutput.log".
+[14.240s] Invoked command in '/home/user/ros2_ws/src/build/sampling_planners_demo' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/sampling_planners_demo -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/src/install/sampling_planners_demo

@@ -1,0 +1,108 @@
+[0.737s] Invoking command in '/home/user/ros2_ws/src/build/slam_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/slam_examples -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/src/install/slam_examples
+[6.175s] -- The C compiler identification is GNU 11.4.0
+[7.602s] -- The CXX compiler identification is GNU 11.4.0
+[7.622s] -- Detecting C compiler ABI info
+[7.862s] -- Detecting C compiler ABI info - done
+[7.872s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.873s] -- Detecting C compile features
+[7.906s] -- Detecting C compile features - done
+[7.912s] -- Detecting CXX compiler ABI info
+[8.179s] -- Detecting CXX compiler ABI info - done
+[8.187s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[8.187s] -- Detecting CXX compile features
+[8.187s] -- Detecting CXX compile features - done
+[8.214s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[9.254s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[10.056s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.510s] -- Added test 'flake8' to check Python code syntax and style conventions
+[10.552s] -- Added test 'lint_cmake' to check CMake code style
+[10.555s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[10.566s] -- Added test 'xmllint' to check XML markup files
+[10.571s] -- Configuring done
+[10.572s] -- Generating done
+[10.573s] -- Build files have been written to: /home/user/ros2_ws/src/build/slam_examples
+[10.579s] Invoked command in '/home/user/ros2_ws/src/build/slam_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/slam_examples -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/src/install/slam_examples
+[10.582s] Invoking command in '/home/user/ros2_ws/src/build/slam_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/src/build/slam_examples -- -j8 -l8
+[10.757s] Invoked command in '/home/user/ros2_ws/src/build/slam_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/src/build/slam_examples -- -j8 -l8
+[10.772s] Invoking command in '/home/user/ros2_ws/src/build/slam_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/src/build/slam_examples
+[10.785s] -- Install configuration: ""
+[10.785s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/launch
+[10.785s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/launch/turtlebot3_house.launch.py
+[10.785s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/launch/octomap.launch.py
+[10.786s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/launch/gmapping_online.launch.py
+[10.786s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/launch/amcl_real.launch.py
+[10.786s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/launch/amcl.launch.py
+[10.786s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/launch/amcl_real.launch
+[10.787s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/launch/turtlebot_octomap_offline_demo.launch.py
+[10.787s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/launch/turtlebot_amcl_demo.launch.py
+[10.787s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/launch/gmapping_real.launch.py
+[10.787s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/launch/turtlebot_gmapping_demo.launch.py
+[10.787s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/launch/gmapping.launch.py
+[10.787s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/launch/spawn_turtlebot3.launch.py
+[10.791s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/launch/robot_state_publisher.launch.py
+[10.792s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/launch/octomap_online.launch.py
+[10.792s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/launch/turtlebot_octomap_online_demo.launch.py
+[10.792s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/launch/octomap_offline.launch.py
+[10.792s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/launch/turtlebot_octomap_demo.launch.py
+[10.792s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/config
+[10.792s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/config/octomap_params.yaml
+[10.792s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/config/amcl_real_params.yaml
+[10.793s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/config/gmapping_params.yaml
+[10.793s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/config/gmapping_real_params.yaml
+[10.793s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/config/online_params.yaml
+[10.793s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/config/amcl_params.yaml
+[10.793s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/maps
+[10.793s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/maps/map0.15.bt
+[10.793s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/maps/mymap.yaml
+[10.793s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/maps/map0.4.bt
+[10.793s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/maps/map0.35.bt
+[10.793s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/maps/mymap.pgm
+[10.793s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/maps/map0.1.bt
+[10.794s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/maps/map0.075.bt
+[10.794s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/maps/map0.05.bt
+[10.794s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/maps/map0.5.bt
+[10.794s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/maps/map0.025.bt
+[10.794s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/maps/map0.095.bt
+[10.794s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/maps/map0.2.bt
+[10.794s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/maps/map0.8.bt
+[10.794s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/maps/map0.25.bt
+[10.794s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/maps/map0.085.bt
+[10.794s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/rviz
+[10.794s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/rviz/slam_demo.rviz
+[10.794s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/rviz/nav_demo.rviz
+[10.794s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/rviz/coursework.rviz
+[10.794s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/urdf
+[10.794s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/urdf/turtlebot3_burger.urdf
+[10.795s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/worlds
+[10.795s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/worlds/turtlebot3_housemod.world
+[10.795s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/worlds/turtlebot3_house.world
+[10.795s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/models
+[10.795s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/models/turtlebot3_common
+[10.795s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/models/turtlebot3_common/meshes
+[10.795s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/models/turtlebot3_common/meshes/tire.dae
+[10.795s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/models/turtlebot3_common/meshes/waffle_base.dae
+[10.795s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/models/turtlebot3_common/meshes/r200.dae
+[10.795s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/models/turtlebot3_common/meshes/lds.dae
+[10.795s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/models/turtlebot3_common/meshes/waffle_pi_base.dae
+[10.795s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/models/turtlebot3_common/meshes/burger_base.dae
+[10.795s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/models/turtlebot3_common/model.config
+[10.796s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/models/turtlebot3_burger
+[10.796s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/models/turtlebot3_burger/model.sdf
+[10.796s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/models/turtlebot3_burger/model-1_4.sdf
+[10.796s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/models/turtlebot3_burger/model.config
+[10.796s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/ament_index/resource_index/package_run_dependencies/slam_examples
+[10.797s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/ament_index/resource_index/parent_prefix_path/slam_examples
+[10.797s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/environment/ament_prefix_path.sh
+[10.797s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/environment/ament_prefix_path.dsv
+[10.797s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/environment/path.sh
+[10.797s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/environment/path.dsv
+[10.797s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/local_setup.bash
+[10.798s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/local_setup.sh
+[10.798s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/local_setup.zsh
+[10.798s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/local_setup.dsv
+[10.798s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/package.dsv
+[10.798s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/ament_index/resource_index/packages/slam_examples
+[10.798s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/cmake/slam_examplesConfig.cmake
+[10.798s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/cmake/slam_examplesConfig-version.cmake
+[10.798s] -- Installing: /home/user/ros2_ws/src/install/slam_examples/share/slam_examples/package.xml
+[10.865s] Invoked command in '/home/user/ros2_ws/src/build/slam_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/src/build/slam_examples

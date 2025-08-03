@@ -1,0 +1,54 @@
+running egg_info
+creating ../build/grid_planners_demo/grid_planners_demo.egg-info
+writing ../build/grid_planners_demo/grid_planners_demo.egg-info/PKG-INFO
+writing dependency_links to ../build/grid_planners_demo/grid_planners_demo.egg-info/dependency_links.txt
+writing entry points to ../build/grid_planners_demo/grid_planners_demo.egg-info/entry_points.txt
+writing requirements to ../build/grid_planners_demo/grid_planners_demo.egg-info/requires.txt
+writing top-level names to ../build/grid_planners_demo/grid_planners_demo.egg-info/top_level.txt
+writing manifest file '../build/grid_planners_demo/grid_planners_demo.egg-info/SOURCES.txt'
+reading manifest file '../build/grid_planners_demo/grid_planners_demo.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../build/grid_planners_demo/grid_planners_demo.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/user/ros2_ws/src/build/grid_planners_demo/build/lib/grid_planners_demo
+copying grid_planners_demo/navigator_dijkstra.py -> /home/user/ros2_ws/src/build/grid_planners_demo/build/lib/grid_planners_demo
+copying grid_planners_demo/navigator_dstar_lite.py -> /home/user/ros2_ws/src/build/grid_planners_demo/build/lib/grid_planners_demo
+copying grid_planners_demo/__init__.py -> /home/user/ros2_ws/src/build/grid_planners_demo/build/lib/grid_planners_demo
+copying grid_planners_demo/node.py -> /home/user/ros2_ws/src/build/grid_planners_demo/build/lib/grid_planners_demo
+copying grid_planners_demo/navigator_astar.py -> /home/user/ros2_ws/src/build/grid_planners_demo/build/lib/grid_planners_demo
+copying grid_planners_demo/collision_checker.py -> /home/user/ros2_ws/src/build/grid_planners_demo/build/lib/grid_planners_demo
+running install
+running install_lib
+creating /home/user/ros2_ws/src/install/grid_planners_demo/lib/python3.10/site-packages/grid_planners_demo
+copying /home/user/ros2_ws/src/build/grid_planners_demo/build/lib/grid_planners_demo/navigator_dijkstra.py -> /home/user/ros2_ws/src/install/grid_planners_demo/lib/python3.10/site-packages/grid_planners_demo
+copying /home/user/ros2_ws/src/build/grid_planners_demo/build/lib/grid_planners_demo/navigator_dstar_lite.py -> /home/user/ros2_ws/src/install/grid_planners_demo/lib/python3.10/site-packages/grid_planners_demo
+copying /home/user/ros2_ws/src/build/grid_planners_demo/build/lib/grid_planners_demo/__init__.py -> /home/user/ros2_ws/src/install/grid_planners_demo/lib/python3.10/site-packages/grid_planners_demo
+copying /home/user/ros2_ws/src/build/grid_planners_demo/build/lib/grid_planners_demo/node.py -> /home/user/ros2_ws/src/install/grid_planners_demo/lib/python3.10/site-packages/grid_planners_demo
+copying /home/user/ros2_ws/src/build/grid_planners_demo/build/lib/grid_planners_demo/navigator_astar.py -> /home/user/ros2_ws/src/install/grid_planners_demo/lib/python3.10/site-packages/grid_planners_demo
+copying /home/user/ros2_ws/src/build/grid_planners_demo/build/lib/grid_planners_demo/collision_checker.py -> /home/user/ros2_ws/src/install/grid_planners_demo/lib/python3.10/site-packages/grid_planners_demo
+byte-compiling /home/user/ros2_ws/src/install/grid_planners_demo/lib/python3.10/site-packages/grid_planners_demo/navigator_dijkstra.py to navigator_dijkstra.cpython-310.pyc
+byte-compiling /home/user/ros2_ws/src/install/grid_planners_demo/lib/python3.10/site-packages/grid_planners_demo/navigator_dstar_lite.py to navigator_dstar_lite.cpython-310.pyc
+byte-compiling /home/user/ros2_ws/src/install/grid_planners_demo/lib/python3.10/site-packages/grid_planners_demo/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/user/ros2_ws/src/install/grid_planners_demo/lib/python3.10/site-packages/grid_planners_demo/node.py to node.cpython-310.pyc
+byte-compiling /home/user/ros2_ws/src/install/grid_planners_demo/lib/python3.10/site-packages/grid_planners_demo/navigator_astar.py to navigator_astar.cpython-310.pyc
+byte-compiling /home/user/ros2_ws/src/install/grid_planners_demo/lib/python3.10/site-packages/grid_planners_demo/collision_checker.py to collision_checker.cpython-310.pyc
+running install_data
+creating /home/user/ros2_ws/src/install/grid_planners_demo/share/ament_index/resource_index/packages
+copying resource/grid_planners_demo -> /home/user/ros2_ws/src/install/grid_planners_demo/share/ament_index/resource_index/packages
+copying package.xml -> /home/user/ros2_ws/src/install/grid_planners_demo/share/grid_planners_demo
+creating /home/user/ros2_ws/src/install/grid_planners_demo/share/grid_planners_demo/launch
+copying launch/goto_dijkstra_demo.launch.py -> /home/user/ros2_ws/src/install/grid_planners_demo/share/grid_planners_demo/launch
+copying launch/goto_dstar_lite_demo.launch.py -> /home/user/ros2_ws/src/install/grid_planners_demo/share/grid_planners_demo/launch
+copying launch/goto_astar_demo.launch.py -> /home/user/ros2_ws/src/install/grid_planners_demo/share/grid_planners_demo/launch
+creating /home/user/ros2_ws/src/install/grid_planners_demo/share/grid_planners_demo/config
+copying config/dstar_lite_params.yaml -> /home/user/ros2_ws/src/install/grid_planners_demo/share/grid_planners_demo/config
+copying config/dijkstra_params.yaml -> /home/user/ros2_ws/src/install/grid_planners_demo/share/grid_planners_demo/config
+copying config/astar_params.yaml -> /home/user/ros2_ws/src/install/grid_planners_demo/share/grid_planners_demo/config
+running install_egg_info
+Copying ../build/grid_planners_demo/grid_planners_demo.egg-info to /home/user/ros2_ws/src/install/grid_planners_demo/lib/python3.10/site-packages/grid_planners_demo-0.0.0-py3.10.egg-info
+running install_scripts
+Installing navigator_astar script to /home/user/ros2_ws/src/install/grid_planners_demo/lib/grid_planners_demo
+Installing navigator_dijkstra script to /home/user/ros2_ws/src/install/grid_planners_demo/lib/grid_planners_demo
+Installing navigator_dstar_lite script to /home/user/ros2_ws/src/install/grid_planners_demo/lib/grid_planners_demo
+writing list of installed files to '/home/user/ros2_ws/src/build/grid_planners_demo/install.log'

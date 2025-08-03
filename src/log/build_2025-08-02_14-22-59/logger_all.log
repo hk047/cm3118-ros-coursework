@@ -1,0 +1,286 @@
+[4.525s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[4.525s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, lookup_in_workspace=False, cargo_args=None, clean_build=False, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fe3d65183d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fe3d64ebd90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fe3d64ebd90>>, mixin_verb=('build',))
+[4.790s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.790s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.791s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.791s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.791s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.791s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.791s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/user/ros2_ws/src'
+[4.791s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.791s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.791s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.791s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.791s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.791s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.791s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.791s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ament_cargo']
+[4.791s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ament_cargo'
+[4.791s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.791s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[5.012s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cargo', 'cmake', 'python']
+[5.012s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cargo'
+[5.013s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[5.013s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[5.013s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[5.013s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[5.013s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[5.013s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[5.013s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[5.013s] Level 1:colcon.colcon_core.package_identification:_identify(grid_planners_demo) by extensions ['ignore', 'ignore_ament_install']
+[5.013s] Level 1:colcon.colcon_core.package_identification:_identify(grid_planners_demo) by extension 'ignore'
+[5.013s] Level 1:colcon.colcon_core.package_identification:_identify(grid_planners_demo) by extension 'ignore_ament_install'
+[5.013s] Level 1:colcon.colcon_core.package_identification:_identify(grid_planners_demo) by extensions ['colcon_pkg']
+[5.013s] Level 1:colcon.colcon_core.package_identification:_identify(grid_planners_demo) by extension 'colcon_pkg'
+[5.013s] Level 1:colcon.colcon_core.package_identification:_identify(grid_planners_demo) by extensions ['colcon_meta']
+[5.013s] Level 1:colcon.colcon_core.package_identification:_identify(grid_planners_demo) by extension 'colcon_meta'
+[5.013s] Level 1:colcon.colcon_core.package_identification:_identify(grid_planners_demo) by extensions ['ament_cargo']
+[5.013s] Level 1:colcon.colcon_core.package_identification:_identify(grid_planners_demo) by extension 'ament_cargo'
+[5.013s] Level 1:colcon.colcon_core.package_identification:_identify(grid_planners_demo) by extensions ['ros']
+[5.014s] Level 1:colcon.colcon_core.package_identification:_identify(grid_planners_demo) by extension 'ros'
+[5.018s] DEBUG:colcon.colcon_core.package_identification:Package 'grid_planners_demo' with type 'ros.ament_python' and name 'grid_planners_demo'
+[5.018s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[5.018s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[5.018s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[5.019s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[5.019s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[5.019s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[5.019s] Level 1:colcon.colcon_core.package_identification:_identify(path_follower) by extensions ['ignore', 'ignore_ament_install']
+[5.019s] Level 1:colcon.colcon_core.package_identification:_identify(path_follower) by extension 'ignore'
+[5.019s] Level 1:colcon.colcon_core.package_identification:_identify(path_follower) by extension 'ignore_ament_install'
+[5.019s] Level 1:colcon.colcon_core.package_identification:_identify(path_follower) by extensions ['colcon_pkg']
+[5.019s] Level 1:colcon.colcon_core.package_identification:_identify(path_follower) by extension 'colcon_pkg'
+[5.019s] Level 1:colcon.colcon_core.package_identification:_identify(path_follower) by extensions ['colcon_meta']
+[5.019s] Level 1:colcon.colcon_core.package_identification:_identify(path_follower) by extension 'colcon_meta'
+[5.019s] Level 1:colcon.colcon_core.package_identification:_identify(path_follower) by extensions ['ament_cargo']
+[5.019s] Level 1:colcon.colcon_core.package_identification:_identify(path_follower) by extension 'ament_cargo'
+[5.019s] Level 1:colcon.colcon_core.package_identification:_identify(path_follower) by extensions ['ros']
+[5.019s] Level 1:colcon.colcon_core.package_identification:_identify(path_follower) by extension 'ros'
+[5.020s] DEBUG:colcon.colcon_core.package_identification:Package 'path_follower' with type 'ros.ament_python' and name 'path_follower'
+[5.020s] Level 1:colcon.colcon_core.package_identification:_identify(sampling_planners_demo) by extensions ['ignore', 'ignore_ament_install']
+[5.020s] Level 1:colcon.colcon_core.package_identification:_identify(sampling_planners_demo) by extension 'ignore'
+[5.020s] Level 1:colcon.colcon_core.package_identification:_identify(sampling_planners_demo) by extension 'ignore_ament_install'
+[5.020s] Level 1:colcon.colcon_core.package_identification:_identify(sampling_planners_demo) by extensions ['colcon_pkg']
+[5.020s] Level 1:colcon.colcon_core.package_identification:_identify(sampling_planners_demo) by extension 'colcon_pkg'
+[5.020s] Level 1:colcon.colcon_core.package_identification:_identify(sampling_planners_demo) by extensions ['colcon_meta']
+[5.020s] Level 1:colcon.colcon_core.package_identification:_identify(sampling_planners_demo) by extension 'colcon_meta'
+[5.021s] Level 1:colcon.colcon_core.package_identification:_identify(sampling_planners_demo) by extensions ['ament_cargo']
+[5.021s] Level 1:colcon.colcon_core.package_identification:_identify(sampling_planners_demo) by extension 'ament_cargo'
+[5.021s] Level 1:colcon.colcon_core.package_identification:_identify(sampling_planners_demo) by extensions ['ros']
+[5.021s] Level 1:colcon.colcon_core.package_identification:_identify(sampling_planners_demo) by extension 'ros'
+[5.022s] DEBUG:colcon.colcon_core.package_identification:Package 'sampling_planners_demo' with type 'ros.ament_cmake' and name 'sampling_planners_demo'
+[5.022s] Level 1:colcon.colcon_core.package_identification:_identify(slam_examples) by extensions ['ignore', 'ignore_ament_install']
+[5.022s] Level 1:colcon.colcon_core.package_identification:_identify(slam_examples) by extension 'ignore'
+[5.022s] Level 1:colcon.colcon_core.package_identification:_identify(slam_examples) by extension 'ignore_ament_install'
+[5.022s] Level 1:colcon.colcon_core.package_identification:_identify(slam_examples) by extensions ['colcon_pkg']
+[5.022s] Level 1:colcon.colcon_core.package_identification:_identify(slam_examples) by extension 'colcon_pkg'
+[5.022s] Level 1:colcon.colcon_core.package_identification:_identify(slam_examples) by extensions ['colcon_meta']
+[5.022s] Level 1:colcon.colcon_core.package_identification:_identify(slam_examples) by extension 'colcon_meta'
+[5.022s] Level 1:colcon.colcon_core.package_identification:_identify(slam_examples) by extensions ['ament_cargo']
+[5.022s] Level 1:colcon.colcon_core.package_identification:_identify(slam_examples) by extension 'ament_cargo'
+[5.022s] Level 1:colcon.colcon_core.package_identification:_identify(slam_examples) by extensions ['ros']
+[5.022s] Level 1:colcon.colcon_core.package_identification:_identify(slam_examples) by extension 'ros'
+[5.023s] DEBUG:colcon.colcon_core.package_identification:Package 'slam_examples' with type 'ros.ament_cmake' and name 'slam_examples'
+[5.023s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[5.023s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[5.023s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[5.023s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[5.023s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[5.097s] Level 5:colcon.colcon_core.verb:set package 'grid_planners_demo' build argument 'lookup_in_workspace' from command line to 'False'
+[5.097s] Level 5:colcon.colcon_core.verb:set package 'grid_planners_demo' build argument 'cargo_args' from command line to 'None'
+[5.097s] Level 5:colcon.colcon_core.verb:set package 'grid_planners_demo' build argument 'clean_build' from command line to 'False'
+[5.097s] Level 5:colcon.colcon_core.verb:set package 'grid_planners_demo' build argument 'cmake_args' from command line to 'None'
+[5.097s] Level 5:colcon.colcon_core.verb:set package 'grid_planners_demo' build argument 'cmake_target' from command line to 'None'
+[5.097s] Level 5:colcon.colcon_core.verb:set package 'grid_planners_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.097s] Level 5:colcon.colcon_core.verb:set package 'grid_planners_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[5.097s] Level 5:colcon.colcon_core.verb:set package 'grid_planners_demo' build argument 'cmake_clean_first' from command line to 'False'
+[5.097s] Level 5:colcon.colcon_core.verb:set package 'grid_planners_demo' build argument 'cmake_force_configure' from command line to 'False'
+[5.097s] Level 5:colcon.colcon_core.verb:set package 'grid_planners_demo' build argument 'ament_cmake_args' from command line to 'None'
+[5.097s] Level 5:colcon.colcon_core.verb:set package 'grid_planners_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[5.097s] Level 5:colcon.colcon_core.verb:set package 'grid_planners_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.097s] DEBUG:colcon.colcon_core.verb:Building package 'grid_planners_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/ros2_ws/src/build/grid_planners_demo', 'cargo_args': None, 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'clean_build': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/ros2_ws/src/install/grid_planners_demo', 'lookup_in_workspace': False, 'merge_install': False, 'path': '/home/user/ros2_ws/src/grid_planners_demo', 'symlink_install': False, 'test_result_base': None}
+[5.098s] Level 5:colcon.colcon_core.verb:set package 'path_follower' build argument 'lookup_in_workspace' from command line to 'False'
+[5.098s] Level 5:colcon.colcon_core.verb:set package 'path_follower' build argument 'cargo_args' from command line to 'None'
+[5.098s] Level 5:colcon.colcon_core.verb:set package 'path_follower' build argument 'clean_build' from command line to 'False'
+[5.098s] Level 5:colcon.colcon_core.verb:set package 'path_follower' build argument 'cmake_args' from command line to 'None'
+[5.098s] Level 5:colcon.colcon_core.verb:set package 'path_follower' build argument 'cmake_target' from command line to 'None'
+[5.098s] Level 5:colcon.colcon_core.verb:set package 'path_follower' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.098s] Level 5:colcon.colcon_core.verb:set package 'path_follower' build argument 'cmake_clean_cache' from command line to 'False'
+[5.098s] Level 5:colcon.colcon_core.verb:set package 'path_follower' build argument 'cmake_clean_first' from command line to 'False'
+[5.098s] Level 5:colcon.colcon_core.verb:set package 'path_follower' build argument 'cmake_force_configure' from command line to 'False'
+[5.098s] Level 5:colcon.colcon_core.verb:set package 'path_follower' build argument 'ament_cmake_args' from command line to 'None'
+[5.098s] Level 5:colcon.colcon_core.verb:set package 'path_follower' build argument 'catkin_cmake_args' from command line to 'None'
+[5.098s] Level 5:colcon.colcon_core.verb:set package 'path_follower' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.098s] DEBUG:colcon.colcon_core.verb:Building package 'path_follower' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/ros2_ws/src/build/path_follower', 'cargo_args': None, 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'clean_build': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/ros2_ws/src/install/path_follower', 'lookup_in_workspace': False, 'merge_install': False, 'path': '/home/user/ros2_ws/src/path_follower', 'symlink_install': False, 'test_result_base': None}
+[5.098s] Level 5:colcon.colcon_core.verb:set package 'sampling_planners_demo' build argument 'lookup_in_workspace' from command line to 'False'
+[5.098s] Level 5:colcon.colcon_core.verb:set package 'sampling_planners_demo' build argument 'cargo_args' from command line to 'None'
+[5.098s] Level 5:colcon.colcon_core.verb:set package 'sampling_planners_demo' build argument 'clean_build' from command line to 'False'
+[5.098s] Level 5:colcon.colcon_core.verb:set package 'sampling_planners_demo' build argument 'cmake_args' from command line to 'None'
+[5.098s] Level 5:colcon.colcon_core.verb:set package 'sampling_planners_demo' build argument 'cmake_target' from command line to 'None'
+[5.099s] Level 5:colcon.colcon_core.verb:set package 'sampling_planners_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.099s] Level 5:colcon.colcon_core.verb:set package 'sampling_planners_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[5.099s] Level 5:colcon.colcon_core.verb:set package 'sampling_planners_demo' build argument 'cmake_clean_first' from command line to 'False'
+[5.099s] Level 5:colcon.colcon_core.verb:set package 'sampling_planners_demo' build argument 'cmake_force_configure' from command line to 'False'
+[5.099s] Level 5:colcon.colcon_core.verb:set package 'sampling_planners_demo' build argument 'ament_cmake_args' from command line to 'None'
+[5.099s] Level 5:colcon.colcon_core.verb:set package 'sampling_planners_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[5.099s] Level 5:colcon.colcon_core.verb:set package 'sampling_planners_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.099s] DEBUG:colcon.colcon_core.verb:Building package 'sampling_planners_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/ros2_ws/src/build/sampling_planners_demo', 'cargo_args': None, 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'clean_build': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/ros2_ws/src/install/sampling_planners_demo', 'lookup_in_workspace': False, 'merge_install': False, 'path': '/home/user/ros2_ws/src/sampling_planners_demo', 'symlink_install': False, 'test_result_base': None}
+[5.099s] Level 5:colcon.colcon_core.verb:set package 'slam_examples' build argument 'lookup_in_workspace' from command line to 'False'
+[5.099s] Level 5:colcon.colcon_core.verb:set package 'slam_examples' build argument 'cargo_args' from command line to 'None'
+[5.099s] Level 5:colcon.colcon_core.verb:set package 'slam_examples' build argument 'clean_build' from command line to 'False'
+[5.099s] Level 5:colcon.colcon_core.verb:set package 'slam_examples' build argument 'cmake_args' from command line to 'None'
+[5.099s] Level 5:colcon.colcon_core.verb:set package 'slam_examples' build argument 'cmake_target' from command line to 'None'
+[5.099s] Level 5:colcon.colcon_core.verb:set package 'slam_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.099s] Level 5:colcon.colcon_core.verb:set package 'slam_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[5.099s] Level 5:colcon.colcon_core.verb:set package 'slam_examples' build argument 'cmake_clean_first' from command line to 'False'
+[5.099s] Level 5:colcon.colcon_core.verb:set package 'slam_examples' build argument 'cmake_force_configure' from command line to 'False'
+[5.099s] Level 5:colcon.colcon_core.verb:set package 'slam_examples' build argument 'ament_cmake_args' from command line to 'None'
+[5.099s] Level 5:colcon.colcon_core.verb:set package 'slam_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[5.099s] Level 5:colcon.colcon_core.verb:set package 'slam_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.099s] DEBUG:colcon.colcon_core.verb:Building package 'slam_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/ros2_ws/src/build/slam_examples', 'cargo_args': None, 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'clean_build': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/ros2_ws/src/install/slam_examples', 'lookup_in_workspace': False, 'merge_install': False, 'path': '/home/user/ros2_ws/src/slam_examples', 'symlink_install': False, 'test_result_base': None}
+[5.099s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[5.100s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[5.101s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/user/ros2_ws/src/grid_planners_demo' with build type 'ament_python'
+[5.101s] Level 1:colcon.colcon_core.shell:create_environment_hook('grid_planners_demo', 'ament_prefix_path')
+[5.111s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[5.112s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/src/install/grid_planners_demo/share/grid_planners_demo/hook/ament_prefix_path.ps1'
+[5.113s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/src/install/grid_planners_demo/share/grid_planners_demo/hook/ament_prefix_path.dsv'
+[5.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/src/install/grid_planners_demo/share/grid_planners_demo/hook/ament_prefix_path.sh'
+[5.115s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.115s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.126s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/user/ros2_ws/src/path_follower' with build type 'ament_python'
+[5.126s] Level 1:colcon.colcon_core.shell:create_environment_hook('path_follower', 'ament_prefix_path')
+[5.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/src/install/path_follower/share/path_follower/hook/ament_prefix_path.ps1'
+[5.127s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/src/install/path_follower/share/path_follower/hook/ament_prefix_path.dsv'
+[5.128s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/src/install/path_follower/share/path_follower/hook/ament_prefix_path.sh'
+[5.128s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.128s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.136s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/user/ros2_ws/src/sampling_planners_demo' with build type 'ament_cmake'
+[5.136s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/user/ros2_ws/src/sampling_planners_demo'
+[5.136s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.136s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.143s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/user/ros2_ws/src/slam_examples' with build type 'ament_cmake'
+[5.143s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/user/ros2_ws/src/slam_examples'
+[5.143s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.143s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.495s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/user/ros2_ws/src/grid_planners_demo'
+[5.495s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.495s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.781s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/user/ros2_ws/src/path_follower'
+[5.782s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.782s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.794s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_ws/src/build/sampling_planners_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/sampling_planners_demo -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/src/install/sampling_planners_demo
+[5.881s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_ws/src/build/slam_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/slam_examples -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/src/install/slam_examples
+[14.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_ws/src/grid_planners_demo': PYTHONPATH=/home/user/ros2_ws/src/build/grid_planners_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/src/install/grid_planners_demo/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/grid_planners_demo build --build-base /home/user/ros2_ws/src/build/grid_planners_demo/build install --record /home/user/ros2_ws/src/build/grid_planners_demo/install.log --single-version-externally-managed install_data
+[14.514s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_ws/src/path_follower': PYTHONPATH=/home/user/ros2_ws/src/build/path_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/src/install/path_follower/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/path_follower build --build-base /home/user/ros2_ws/src/build/path_follower/build install --record /home/user/ros2_ws/src/build/path_follower/install.log --single-version-externally-managed install_data
+[15.723s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_ws/src/build/slam_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/slam_examples -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/src/install/slam_examples
+[15.726s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_ws/src/build/slam_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/src/build/slam_examples -- -j8 -l8
+[15.900s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_ws/src/build/slam_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/src/build/slam_examples -- -j8 -l8
+[15.915s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_ws/src/build/slam_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/src/build/slam_examples
+[15.922s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_ws/src/grid_planners_demo' returned '0': PYTHONPATH=/home/user/ros2_ws/src/build/grid_planners_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/src/install/grid_planners_demo/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/grid_planners_demo build --build-base /home/user/ros2_ws/src/build/grid_planners_demo/build install --record /home/user/ros2_ws/src/build/grid_planners_demo/install.log --single-version-externally-managed install_data
+[15.995s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/grid_planners_demo' for CMake module files
+[15.995s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/grid_planners_demo' for CMake config files
+[15.996s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/grid_planners_demo/lib'
+[15.996s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/grid_planners_demo/bin'
+[15.996s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/grid_planners_demo/lib/pkgconfig/grid_planners_demo.pc'
+[15.997s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/grid_planners_demo/lib/python3.10/site-packages'
+[15.997s] Level 1:colcon.colcon_core.shell:create_environment_hook('grid_planners_demo', 'pythonpath')
+[15.997s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/src/install/grid_planners_demo/share/grid_planners_demo/hook/pythonpath.ps1'
+[15.998s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/src/install/grid_planners_demo/share/grid_planners_demo/hook/pythonpath.dsv'
+[15.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/src/install/grid_planners_demo/share/grid_planners_demo/hook/pythonpath.sh'
+[15.998s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/grid_planners_demo/bin'
+[15.998s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(grid_planners_demo)
+[15.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/install/grid_planners_demo/share/grid_planners_demo/package.ps1'
+[16.000s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/ros2_ws/src/install/grid_planners_demo/share/grid_planners_demo/package.dsv'
+[16.001s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/install/grid_planners_demo/share/grid_planners_demo/package.sh'
+[16.002s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/install/grid_planners_demo/share/grid_planners_demo/package.bash'
+[16.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/install/grid_planners_demo/share/grid_planners_demo/package.zsh'
+[16.006s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/ros2_ws/src/install/grid_planners_demo/share/colcon-core/packages/grid_planners_demo)
+[16.008s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_examples)
+[16.008s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/slam_examples' for CMake module files
+[16.009s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_ws/src/build/slam_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/src/build/slam_examples
+[16.009s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/slam_examples' for CMake config files
+[16.009s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_examples', 'cmake_prefix_path')
+[16.009s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/src/install/slam_examples/share/slam_examples/hook/cmake_prefix_path.ps1'
+[16.010s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/src/install/slam_examples/share/slam_examples/hook/cmake_prefix_path.dsv'
+[16.010s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/src/install/slam_examples/share/slam_examples/hook/cmake_prefix_path.sh'
+[16.011s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/slam_examples/bin'
+[16.011s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/slam_examples/lib/pkgconfig/slam_examples.pc'
+[16.011s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/slam_examples/lib/python3.10/site-packages'
+[16.011s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/slam_examples/bin'
+[16.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/install/slam_examples/share/slam_examples/package.ps1'
+[16.012s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/ros2_ws/src/install/slam_examples/share/slam_examples/package.dsv'
+[16.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/install/slam_examples/share/slam_examples/package.sh'
+[16.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/install/slam_examples/share/slam_examples/package.bash'
+[16.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/install/slam_examples/share/slam_examples/package.zsh'
+[16.013s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/ros2_ws/src/install/slam_examples/share/colcon-core/packages/slam_examples)
+[16.014s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_examples)
+[16.014s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/slam_examples' for CMake module files
+[16.015s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/slam_examples' for CMake config files
+[16.015s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_examples', 'cmake_prefix_path')
+[16.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/src/install/slam_examples/share/slam_examples/hook/cmake_prefix_path.ps1'
+[16.015s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/src/install/slam_examples/share/slam_examples/hook/cmake_prefix_path.dsv'
+[16.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/src/install/slam_examples/share/slam_examples/hook/cmake_prefix_path.sh'
+[16.016s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/slam_examples/bin'
+[16.016s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/slam_examples/lib/pkgconfig/slam_examples.pc'
+[16.017s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/slam_examples/lib/python3.10/site-packages'
+[16.017s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/slam_examples/bin'
+[16.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/install/slam_examples/share/slam_examples/package.ps1'
+[16.018s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/ros2_ws/src/install/slam_examples/share/slam_examples/package.dsv'
+[16.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/install/slam_examples/share/slam_examples/package.sh'
+[16.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/install/slam_examples/share/slam_examples/package.bash'
+[16.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/install/slam_examples/share/slam_examples/package.zsh'
+[16.019s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/ros2_ws/src/install/slam_examples/share/colcon-core/packages/slam_examples)
+[16.023s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/path_follower' for CMake module files
+[16.023s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_ws/src/path_follower' returned '0': PYTHONPATH=/home/user/ros2_ws/src/build/path_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/src/install/path_follower/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/path_follower build --build-base /home/user/ros2_ws/src/build/path_follower/build install --record /home/user/ros2_ws/src/build/path_follower/install.log --single-version-externally-managed install_data
+[16.024s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/path_follower' for CMake config files
+[16.024s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/path_follower/lib'
+[16.024s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/path_follower/bin'
+[16.024s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/path_follower/lib/pkgconfig/path_follower.pc'
+[16.025s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/path_follower/lib/python3.10/site-packages'
+[16.025s] Level 1:colcon.colcon_core.shell:create_environment_hook('path_follower', 'pythonpath')
+[16.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/src/install/path_follower/share/path_follower/hook/pythonpath.ps1'
+[16.026s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/src/install/path_follower/share/path_follower/hook/pythonpath.dsv'
+[16.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/src/install/path_follower/share/path_follower/hook/pythonpath.sh'
+[16.027s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/path_follower/bin'
+[16.027s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(path_follower)
+[16.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/install/path_follower/share/path_follower/package.ps1'
+[16.028s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/ros2_ws/src/install/path_follower/share/path_follower/package.dsv'
+[16.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/install/path_follower/share/path_follower/package.sh'
+[16.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/install/path_follower/share/path_follower/package.bash'
+[16.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/install/path_follower/share/path_follower/package.zsh'
+[16.030s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/ros2_ws/src/install/path_follower/share/colcon-core/packages/path_follower)
+[19.376s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_ws/src/build/sampling_planners_demo' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/sampling_planners_demo -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/src/install/sampling_planners_demo
+[19.392s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sampling_planners_demo)
+[19.392s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/sampling_planners_demo' for CMake module files
+[19.393s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/sampling_planners_demo' for CMake config files
+[19.393s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/sampling_planners_demo/bin'
+[19.393s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/sampling_planners_demo/lib/pkgconfig/sampling_planners_demo.pc'
+[19.393s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/sampling_planners_demo/lib/python3.10/site-packages'
+[19.393s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/sampling_planners_demo/bin'
+[19.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/install/sampling_planners_demo/share/sampling_planners_demo/package.ps1'
+[19.394s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/ros2_ws/src/install/sampling_planners_demo/share/sampling_planners_demo/package.dsv'
+[19.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/install/sampling_planners_demo/share/sampling_planners_demo/package.sh'
+[19.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/install/sampling_planners_demo/share/sampling_planners_demo/package.bash'
+[19.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/install/sampling_planners_demo/share/sampling_planners_demo/package.zsh'
+[19.396s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/ros2_ws/src/install/sampling_planners_demo/share/colcon-core/packages/sampling_planners_demo)
+[19.406s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[19.406s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[19.407s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[19.407s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[19.605s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[19.605s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[19.605s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[19.605s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[19.608s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[19.608s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[19.609s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/ros2_ws/src/install/local_setup.ps1'
+[19.611s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/user/ros2_ws/src/install/_local_setup_util_ps1.py'
+[19.612s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/ros2_ws/src/install/setup.ps1'
+[19.615s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/ros2_ws/src/install/local_setup.sh'
+[19.616s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/user/ros2_ws/src/install/_local_setup_util_sh.py'
+[19.617s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/ros2_ws/src/install/setup.sh'
+[19.620s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/ros2_ws/src/install/local_setup.bash'
+[19.621s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/ros2_ws/src/install/setup.bash'
+[19.624s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/ros2_ws/src/install/local_setup.zsh'
+[19.624s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/ros2_ws/src/install/setup.zsh'

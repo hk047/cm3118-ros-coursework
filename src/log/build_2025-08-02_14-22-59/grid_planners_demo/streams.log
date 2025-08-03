@@ -1,0 +1,58 @@
+[9.395s] Invoking command in '/home/user/ros2_ws/src/grid_planners_demo': PYTHONPATH=/home/user/ros2_ws/src/build/grid_planners_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/src/install/grid_planners_demo/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/grid_planners_demo build --build-base /home/user/ros2_ws/src/build/grid_planners_demo/build install --record /home/user/ros2_ws/src/build/grid_planners_demo/install.log --single-version-externally-managed install_data
+[9.818s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[9.818s]   warnings.warn(msg)
+[10.123s] running egg_info
+[10.144s] creating ../build/grid_planners_demo/grid_planners_demo.egg-info
+[10.192s] writing ../build/grid_planners_demo/grid_planners_demo.egg-info/PKG-INFO
+[10.193s] writing dependency_links to ../build/grid_planners_demo/grid_planners_demo.egg-info/dependency_links.txt
+[10.193s] writing entry points to ../build/grid_planners_demo/grid_planners_demo.egg-info/entry_points.txt
+[10.193s] writing requirements to ../build/grid_planners_demo/grid_planners_demo.egg-info/requires.txt
+[10.193s] writing top-level names to ../build/grid_planners_demo/grid_planners_demo.egg-info/top_level.txt
+[10.193s] writing manifest file '../build/grid_planners_demo/grid_planners_demo.egg-info/SOURCES.txt'
+[10.239s] reading manifest file '../build/grid_planners_demo/grid_planners_demo.egg-info/SOURCES.txt'
+[10.239s] adding license file 'LICENSE'
+[10.240s] writing manifest file '../build/grid_planners_demo/grid_planners_demo.egg-info/SOURCES.txt'
+[10.240s] running build
+[10.240s] running build_py
+[10.241s] creating /home/user/ros2_ws/src/build/grid_planners_demo/build/lib/grid_planners_demo
+[10.241s] copying grid_planners_demo/navigator_dijkstra.py -> /home/user/ros2_ws/src/build/grid_planners_demo/build/lib/grid_planners_demo
+[10.241s] copying grid_planners_demo/navigator_dstar_lite.py -> /home/user/ros2_ws/src/build/grid_planners_demo/build/lib/grid_planners_demo
+[10.241s] copying grid_planners_demo/__init__.py -> /home/user/ros2_ws/src/build/grid_planners_demo/build/lib/grid_planners_demo
+[10.241s] copying grid_planners_demo/node.py -> /home/user/ros2_ws/src/build/grid_planners_demo/build/lib/grid_planners_demo
+[10.292s] copying grid_planners_demo/navigator_astar.py -> /home/user/ros2_ws/src/build/grid_planners_demo/build/lib/grid_planners_demo
+[10.292s] copying grid_planners_demo/collision_checker.py -> /home/user/ros2_ws/src/build/grid_planners_demo/build/lib/grid_planners_demo
+[10.292s] running install
+[10.295s] running install_lib
+[10.315s] creating /home/user/ros2_ws/src/install/grid_planners_demo/lib/python3.10/site-packages/grid_planners_demo
+[10.315s] copying /home/user/ros2_ws/src/build/grid_planners_demo/build/lib/grid_planners_demo/navigator_dijkstra.py -> /home/user/ros2_ws/src/install/grid_planners_demo/lib/python3.10/site-packages/grid_planners_demo
+[10.316s] copying /home/user/ros2_ws/src/build/grid_planners_demo/build/lib/grid_planners_demo/navigator_dstar_lite.py -> /home/user/ros2_ws/src/install/grid_planners_demo/lib/python3.10/site-packages/grid_planners_demo
+[10.316s] copying /home/user/ros2_ws/src/build/grid_planners_demo/build/lib/grid_planners_demo/__init__.py -> /home/user/ros2_ws/src/install/grid_planners_demo/lib/python3.10/site-packages/grid_planners_demo
+[10.316s] copying /home/user/ros2_ws/src/build/grid_planners_demo/build/lib/grid_planners_demo/node.py -> /home/user/ros2_ws/src/install/grid_planners_demo/lib/python3.10/site-packages/grid_planners_demo
+[10.316s] copying /home/user/ros2_ws/src/build/grid_planners_demo/build/lib/grid_planners_demo/navigator_astar.py -> /home/user/ros2_ws/src/install/grid_planners_demo/lib/python3.10/site-packages/grid_planners_demo
+[10.316s] copying /home/user/ros2_ws/src/build/grid_planners_demo/build/lib/grid_planners_demo/collision_checker.py -> /home/user/ros2_ws/src/install/grid_planners_demo/lib/python3.10/site-packages/grid_planners_demo
+[10.317s] byte-compiling /home/user/ros2_ws/src/install/grid_planners_demo/lib/python3.10/site-packages/grid_planners_demo/navigator_dijkstra.py to navigator_dijkstra.cpython-310.pyc
+[10.318s] byte-compiling /home/user/ros2_ws/src/install/grid_planners_demo/lib/python3.10/site-packages/grid_planners_demo/navigator_dstar_lite.py to navigator_dstar_lite.cpython-310.pyc
+[10.321s] byte-compiling /home/user/ros2_ws/src/install/grid_planners_demo/lib/python3.10/site-packages/grid_planners_demo/__init__.py to __init__.cpython-310.pyc
+[10.321s] byte-compiling /home/user/ros2_ws/src/install/grid_planners_demo/lib/python3.10/site-packages/grid_planners_demo/node.py to node.cpython-310.pyc
+[10.321s] byte-compiling /home/user/ros2_ws/src/install/grid_planners_demo/lib/python3.10/site-packages/grid_planners_demo/navigator_astar.py to navigator_astar.cpython-310.pyc
+[10.323s] byte-compiling /home/user/ros2_ws/src/install/grid_planners_demo/lib/python3.10/site-packages/grid_planners_demo/collision_checker.py to collision_checker.cpython-310.pyc
+[10.324s] running install_data
+[10.324s] creating /home/user/ros2_ws/src/install/grid_planners_demo/share/ament_index/resource_index/packages
+[10.324s] copying resource/grid_planners_demo -> /home/user/ros2_ws/src/install/grid_planners_demo/share/ament_index/resource_index/packages
+[10.324s] copying package.xml -> /home/user/ros2_ws/src/install/grid_planners_demo/share/grid_planners_demo
+[10.324s] creating /home/user/ros2_ws/src/install/grid_planners_demo/share/grid_planners_demo/launch
+[10.324s] copying launch/goto_dijkstra_demo.launch.py -> /home/user/ros2_ws/src/install/grid_planners_demo/share/grid_planners_demo/launch
+[10.325s] copying launch/goto_dstar_lite_demo.launch.py -> /home/user/ros2_ws/src/install/grid_planners_demo/share/grid_planners_demo/launch
+[10.325s] copying launch/goto_astar_demo.launch.py -> /home/user/ros2_ws/src/install/grid_planners_demo/share/grid_planners_demo/launch
+[10.325s] creating /home/user/ros2_ws/src/install/grid_planners_demo/share/grid_planners_demo/config
+[10.325s] copying config/dstar_lite_params.yaml -> /home/user/ros2_ws/src/install/grid_planners_demo/share/grid_planners_demo/config
+[10.325s] copying config/dijkstra_params.yaml -> /home/user/ros2_ws/src/install/grid_planners_demo/share/grid_planners_demo/config
+[10.325s] copying config/astar_params.yaml -> /home/user/ros2_ws/src/install/grid_planners_demo/share/grid_planners_demo/config
+[10.325s] running install_egg_info
+[10.406s] Copying ../build/grid_planners_demo/grid_planners_demo.egg-info to /home/user/ros2_ws/src/install/grid_planners_demo/lib/python3.10/site-packages/grid_planners_demo-0.0.0-py3.10.egg-info
+[10.407s] running install_scripts
+[10.740s] Installing navigator_astar script to /home/user/ros2_ws/src/install/grid_planners_demo/lib/grid_planners_demo
+[10.740s] Installing navigator_dijkstra script to /home/user/ros2_ws/src/install/grid_planners_demo/lib/grid_planners_demo
+[10.741s] Installing navigator_dstar_lite script to /home/user/ros2_ws/src/install/grid_planners_demo/lib/grid_planners_demo
+[10.741s] writing list of installed files to '/home/user/ros2_ws/src/build/grid_planners_demo/install.log'
+[10.820s] Invoked command in '/home/user/ros2_ws/src/grid_planners_demo' returned '0': PYTHONPATH=/home/user/ros2_ws/src/build/grid_planners_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/src/install/grid_planners_demo/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/grid_planners_demo build --build-base /home/user/ros2_ws/src/build/grid_planners_demo/build install --record /home/user/ros2_ws/src/build/grid_planners_demo/install.log --single-version-externally-managed install_data

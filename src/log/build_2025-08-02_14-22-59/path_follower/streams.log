@@ -1,0 +1,39 @@
+[9.387s] Invoking command in '/home/user/ros2_ws/src/path_follower': PYTHONPATH=/home/user/ros2_ws/src/build/path_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/src/install/path_follower/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/path_follower build --build-base /home/user/ros2_ws/src/build/path_follower/build install --record /home/user/ros2_ws/src/build/path_follower/install.log --single-version-externally-managed install_data
+[9.883s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[9.883s]   warnings.warn(msg)
+[10.168s] running egg_info
+[10.202s] creating ../build/path_follower/path_follower.egg-info
+[10.202s] writing ../build/path_follower/path_follower.egg-info/PKG-INFO
+[10.203s] writing dependency_links to ../build/path_follower/path_follower.egg-info/dependency_links.txt
+[10.203s] writing entry points to ../build/path_follower/path_follower.egg-info/entry_points.txt
+[10.203s] writing requirements to ../build/path_follower/path_follower.egg-info/requires.txt
+[10.203s] writing top-level names to ../build/path_follower/path_follower.egg-info/top_level.txt
+[10.203s] writing manifest file '../build/path_follower/path_follower.egg-info/SOURCES.txt'
+[10.367s] reading manifest file '../build/path_follower/path_follower.egg-info/SOURCES.txt'
+[10.367s] adding license file 'LICENSE'
+[10.369s] writing manifest file '../build/path_follower/path_follower.egg-info/SOURCES.txt'
+[10.369s] running build
+[10.369s] running build_py
+[10.370s] creating /home/user/ros2_ws/src/build/path_follower/build/lib/path_follower
+[10.370s] copying path_follower/__init__.py -> /home/user/ros2_ws/src/build/path_follower/build/lib/path_follower
+[10.370s] copying path_follower/node.py -> /home/user/ros2_ws/src/build/path_follower/build/lib/path_follower
+[10.370s] copying path_follower/path_follower.py -> /home/user/ros2_ws/src/build/path_follower/build/lib/path_follower
+[10.370s] running install
+[10.374s] running install_lib
+[10.395s] creating /home/user/ros2_ws/src/install/path_follower/lib/python3.10/site-packages/path_follower
+[10.395s] copying /home/user/ros2_ws/src/build/path_follower/build/lib/path_follower/__init__.py -> /home/user/ros2_ws/src/install/path_follower/lib/python3.10/site-packages/path_follower
+[10.396s] copying /home/user/ros2_ws/src/build/path_follower/build/lib/path_follower/node.py -> /home/user/ros2_ws/src/install/path_follower/lib/python3.10/site-packages/path_follower
+[10.396s] copying /home/user/ros2_ws/src/build/path_follower/build/lib/path_follower/path_follower.py -> /home/user/ros2_ws/src/install/path_follower/lib/python3.10/site-packages/path_follower
+[10.397s] byte-compiling /home/user/ros2_ws/src/install/path_follower/lib/python3.10/site-packages/path_follower/__init__.py to __init__.cpython-310.pyc
+[10.397s] byte-compiling /home/user/ros2_ws/src/install/path_follower/lib/python3.10/site-packages/path_follower/node.py to node.cpython-310.pyc
+[10.399s] byte-compiling /home/user/ros2_ws/src/install/path_follower/lib/python3.10/site-packages/path_follower/path_follower.py to path_follower.cpython-310.pyc
+[10.400s] running install_data
+[10.401s] creating /home/user/ros2_ws/src/install/path_follower/share/ament_index/resource_index/packages
+[10.401s] copying resource/path_follower -> /home/user/ros2_ws/src/install/path_follower/share/ament_index/resource_index/packages
+[10.401s] copying package.xml -> /home/user/ros2_ws/src/install/path_follower/share/path_follower
+[10.401s] running install_egg_info
+[10.469s] Copying ../build/path_follower/path_follower.egg-info to /home/user/ros2_ws/src/install/path_follower/lib/python3.10/site-packages/path_follower-0.0.0-py3.10.egg-info
+[10.470s] running install_scripts
+[10.821s] Installing path_follower script to /home/user/ros2_ws/src/install/path_follower/lib/path_follower
+[10.821s] writing list of installed files to '/home/user/ros2_ws/src/build/path_follower/install.log'
+[10.896s] Invoked command in '/home/user/ros2_ws/src/path_follower' returned '0': PYTHONPATH=/home/user/ros2_ws/src/build/path_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/src/install/path_follower/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/path_follower build --build-base /home/user/ros2_ws/src/build/path_follower/build install --record /home/user/ros2_ws/src/build/path_follower/install.log --single-version-externally-managed install_data
