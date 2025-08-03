@@ -1,0 +1,4 @@
+[console_scripts]
+navigator_astar = grid_planners_demo.navigator_astar:main
+navigator_dijkstra = grid_planners_demo.navigator_dijkstra:main
+navigator_dstar_lite = grid_planners_demo.navigator_dstar_lite:main

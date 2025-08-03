@@ -1,0 +1,2 @@
+[console_scripts]
+path_follower = path_follower.path_follower:main
